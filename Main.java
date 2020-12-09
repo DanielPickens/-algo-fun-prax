@@ -12,7 +12,7 @@ static int countDivisibles(int arr[],
   arr[j] % arr[i] == 0)  
    res++; 
    return res; } 
-  // Main 
+  // Drive algo 
 public static void main(String[] args) 
 {     int a[] = new int[]{1, 2, 3, 6, 12}; 
     int n = a.length; 
